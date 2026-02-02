@@ -1,6 +1,6 @@
 # AI Fundamentals Code Repository
 
-This repository contains the code, notes, and projects for the AI Fundamentals course.
+This repository contains the code, notes, and projects for the Unique System Skills AI Fundamentals course.
 
 ## Overview
 
@@ -61,5 +61,5 @@ The course uses Python 3.10 and the Geany IDE for hands-on coding.
 
 ## Key Links & Resources
 
-- Course Syllabus:
-- Course Folder: Sharepoint Folder
+- [Course Syllabus](https://drive.google.com/file/d/13ZoVr0B51PqaOcS31l4vcKWXuaTPDbWu/view?usp=sharing)
+- Course Folder: [Sharepoint Folder](https://usskills-my.sharepoint.com/personal/training_usa_systemskills_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ftraining%5Fusa%5Fsystemskills%5Fcom%2FDocuments%2FTraining%20%2D%20Main%2FUSS%20IT%20Training%20USA%20%2D%20IMPORTANT%2FInstructor%20Shared%20Folder%2FGanesh%20Bhosale%2FAI%20Fundamentals&ga=1)
