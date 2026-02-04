@@ -4,7 +4,7 @@ This repository contains the code, notes, and projects for the Unique System Ski
 
 ## Overview
 
-This course is designed for absolute beginners to understand the foundation of Artificial
+This course is designed for beginners to understand the foundation of Artificial
 Intelligence, including Machine Learning (ML), Deep Learning (DL), Natural Language Processing
 (NLP), and Computer Vision (CV), with hands-on coding using Python and real-world applications.
 
@@ -16,17 +16,17 @@ knowledge required).
 
 ## Schedule
 
-The course covers the following core topics:
-- Introduction to Artificial Intelligence
-- Core Concepts in AI
-- Machine Learning Basics
-- Deep Learning Basics
-- Natural Language Processing (NLP)
-- Computer Vision Basics
-- Tools & Platforms for Al
-- Ethics & Responsible Al
-- Capstone Mini Projects
-- Review & Assessment
+The course is typically taught over ten four hour Zoom seeions over two weeks and covers the following core topics:
+1. Introduction to Artificial Intelligence
+1. Core Concepts in AI
+1. Machine Learning Basics
+1. Deep Learning Basics
+1. Natural Language Processing (NLP)
+1. Computer Vision Basics
+1. Tools & Platforms for Al
+1. Ethics & Responsible Al
+1. Capstone Mini Projects
+1. Review & Assessment
 
 ## Development Environment Setup
 
