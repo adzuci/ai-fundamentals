@@ -22,20 +22,16 @@ python -m notebook
 
 ## Notebooks
 
-- **scaling-data.ipynb** — ML preprocessing: missing values, encoding, scaling, train/test split  
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adzuci/ai-fundamentals/blob/main/class-2-machine-learning-basics/scaling-data.ipynb)
-- **data-visualization.ipynb** — Plotting with Matplotlib  
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adzuci/ai-fundamentals/blob/main/class-2-machine-learning-basics/data-visualization.ipynb)
+- **data-preprocessing.ipynb** — DataFrame basics, missing values, categorical encoding, feature scaling
+- **data-visualization.ipynb** — Plotting (scatter, histogram, pandas) plus preprocessing and scaling (imputation, encoding, StandardScaler, train/test split)
 
-## Run in the Browser
-
-Open either notebook in Colab using the buttons above (no local setup required).
+Each notebook has an **Open in Colab** button in its intro. Use that to run in the browser with no local setup.
 
 ## Run in PyCharm
 
 1. **Open the project**: File → Open → select the `ai-fundamentals` folder (repo root). Use "Trust Project" if prompted.
-2. **Set Python interpreter**: File → Settings → Project → Python Interpreter. Add or select an interpreter that has `jupyter`, `numpy`, `pandas`, and `scikit-learn` (e.g. an existing venv or create one and install: `pip install jupyter numpy pandas scikit-learn matplotlib`).
-3. **Open a notebook**: In the Project tool window, go to `class-2-machine-learning-basics/` and double-click `scaling-data.ipynb` or `data-visualization.ipynb`.
+2. **Set Python interpreter**: File → Settings → Project → Python Interpreter. Add or select an interpreter that has `jupyter`, `numpy`, `pandas`, `scikit-learn`, and `matplotlib` (e.g. create a venv and run: `pip install jupyter numpy pandas scikit-learn matplotlib`).
+3. **Open a notebook**: In the Project tool window, go to `class-2-machine-learning-basics/` and double-click `data-preprocessing.ipynb` or `data-visualization.ipynb`.
 4. **Choose kernel**: If PyCharm asks for a kernel, pick the interpreter you configured. You can change it later via the kernel selector in the notebook toolbar.
 5. **Run cells**: Use the run (play) button next to a cell, or **Shift+Enter** to run the current cell and move to the next. Use **Run All** in the toolbar to run the whole notebook.
 
@@ -75,7 +71,7 @@ Open either notebook in Colab using the buttons above (no local setup required).
    ```bash
    python -m notebook
    ```
-10. Open `class-2-machine-learning-basics/scaling-data.ipynb` from the browser tab.
+10. Open a notebook from `class-2-machine-learning-basics/` (e.g. `data-preprocessing.ipynb` or `data-visualization.ipynb`) in the browser tab.
 
 ## Editor Recommendations
 
