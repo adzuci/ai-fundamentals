@@ -20,6 +20,10 @@ pip install numpy pandas
 python -m notebook
 ```
 
+## Run in the Browser
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adzuci/ai-fundamentals/blob/main/class-2-machine-learning-basics/class-2.ipynb)
+
 ## Windows Quickstart (Step-by-Step)
 
 1. Open **Command Prompt** (Start menu -> type "cmd" -> Enter).
