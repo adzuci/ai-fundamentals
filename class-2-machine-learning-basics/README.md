@@ -20,6 +20,11 @@ pip install numpy pandas
 python -m notebook
 ```
 
+## Notebooks
+
+- **scaling-data.ipynb** — ML preprocessing: missing values, encoding, scaling, train/test split
+- **data-visualization.ipynb** — Plotting with Matplotlib
+
 ## Run in the Browser
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adzuci/ai-fundamentals/blob/main/class-2-machine-learning-basics/scaling-data.ipynb)
