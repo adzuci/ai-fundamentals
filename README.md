@@ -4,18 +4,17 @@ This repository contains the code, notes, and projects for the Unique System Ski
 
 ## Overview
 
-This course is designed for absolute beginners to understand the foundations of Artificial
-Intelligence (AI), including Machine Learning (ML), Deep Learning (DL), Natural Language
-Processing (NLP), and Computer Vision (CV), with hands-on coding using Python and real-world
-applications.
+This course is designed for absolute beginners to understand the foundation of Artificial
+Intelligence, including Machine Learning (ML), Deep Learning (DL), Natural Language Processing
+(NLP), and Computer Vision (CV), with hands-on coding using Python and real-world applications.
 
-## Prerequisites
+## Eligibility
 
-Students should have:
-- Basic knowledge of a computer programming language and familiarity with computer fundamentals.
-- Basic understanding of any programming language is mandatory (Python knowledge required).
+Students should have basic knowledge of a computer programming language and be familiar with
+computer fundamentals. Basic understanding of any programming language is mandatory (Python
+knowledge required).
 
-## Course Schedule
+## Schedule
 
 The course covers the following core topics:
 - Introduction to Artificial Intelligence
@@ -24,8 +23,8 @@ The course covers the following core topics:
 - Deep Learning Basics
 - Natural Language Processing (NLP)
 - Computer Vision Basics
-- Tools & Platforms for AI
-- Ethics & Responsible AI
+- Tools & Platforms for Al
+- Ethics & Responsible Al
 - Capstone Mini Projects
 - Review & Assessment
 
@@ -63,3 +62,7 @@ The course uses Python 3.10 and the Geany IDE for hands-on coding.
 
 - [Course Syllabus](https://drive.google.com/file/d/13ZoVr0B51PqaOcS31l4vcKWXuaTPDbWu/view?usp=sharing)
 - Course Folder: [Sharepoint Folder](https://usskills-my.sharepoint.com/personal/training_usa_systemskills_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ftraining%5Fusa%5Fsystemskills%5Fcom%2FDocuments%2FTraining%20%2D%20Main%2FUSS%20IT%20Training%20USA%20%2D%20IMPORTANT%2FInstructor%20Shared%20Folder%2FGanesh%20Bhosale%2FAI%20Fundamentals&ga=1)
+
+## Class 2
+
+- Jupyter setup and notebook: `class-2-machine-learning-basics/`
