@@ -22,7 +22,7 @@ python -m notebook
 
 ## Run in the Browser
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adzuci/ai-fundamentals/blob/main/class-2-machine-learning-basics/ml-preprocessing.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adzuci/ai-fundamentals/blob/main/class-2-machine-learning-basics/scaling-data.ipynb)
 
 ## Windows Quickstart (Step-by-Step)
 
@@ -60,7 +60,7 @@ python -m notebook
    ```bash
    python -m notebook
    ```
-10. Open `class-2-machine-learning-basics/ml-preprocessing.ipynb` from the browser tab.
+10. Open `class-2-machine-learning-basics/scaling-data.ipynb` from the browser tab.
 
 ## Editor Recommendations
 
