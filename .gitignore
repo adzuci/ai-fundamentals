@@ -1,15 +1,35 @@
+# Python
 __pycache__/
 *.py[cod]
 .Python
-.env
 .venv
 venv/
+.env
+.env.*
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Testing / lint
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
 .coverage
 coverage.xml
+htmlcov/
+
+# Jupyter
 .ipynb_checkpoints/
-dist/
-build/
-*.egg-info/
+*.nbconvert.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
