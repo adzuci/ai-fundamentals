@@ -32,12 +32,13 @@ The course is typically taught over ten four hour Zoom seeions over two weeks an
 
 The course uses **Python 3.10** for hands-on coding. Notebooks in this repo can be run **locally** (with Jupyter) or **in Google Colab** (browser-based, no local setup).
 
-### Recommended IDEs
+### Recommended editors / IDEs
 
-Choose an IDE that fits your workflow:
+Choose one of these (you can switch later):
 
-- **[PyCharm](https://www.jetbrains.com/pycharm/)** — Full-featured Python IDE with excellent Jupyter support. Free Community Edition available.
+- **[Geany](https://www.geany.org/)** — Lightweight, fast editor that’s beginner-friendly.
 - **[Cursor](https://cursor.sh/)** — Modern editor with AI assistance, great for notebooks and code navigation.
+- **[PyCharm](https://www.jetbrains.com/pycharm/)** — Full-featured Python IDE with excellent Jupyter support. Free Community Edition available.
 
 ### Installing Python
 
@@ -45,35 +46,39 @@ Choose an IDE that fits your workflow:
 - Download Python 3.10.14 from [python.org/downloads](https://www.python.org/downloads/)
 - Run the installer and check "Add Python to PATH" during installation
 
-**Option 2: Using Chocolatey (Windows package manager)**
+### Windows dev setup (PowerShell, using winget)
 
-**What is Chocolatey?**  
-[Chocolatey](https://chocolatey.org/) is a Windows package manager that lets you install software from the command line, similar to `apt` on Linux or `brew` on macOS. It simplifies installing and updating tools like Python, Geany, and other development software.
+On Windows 10/11, **winget** (the Windows Package Manager) is available if you have the **App Installer** from the Microsoft Store.
 
-**Install Chocolatey:**
-1. Open **PowerShell as Administrator**
-2. Run:
-   ```powershell
-   iex ((New-Object Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-   ```
-   Or visit [chocolatey.org/install](https://chocolatey.org/install) for detailed instructions.
+Open **PowerShell** and run:
 
-**Install Python 3.10.14 via Chocolatey:**
 ```powershell
-choco install python --version=3.10.14 -y --params="'/InstallAllUsers /PrependPath'"
+# Windows dev setup (PowerShell)
+# Prereq: winget is available on most Windows 10/11 installs (App Installer from Microsoft Store)
+
+# Install Google Chrome (optional but handy for Colab)
+winget install --id Google.Chrome --exact
+
+# Install Git
+winget install --id Git.Git --exact
+
+# Install PyCharm
+# Community (free)
+winget install --id JetBrains.PyCharm.Community --exact
+
+# OR PyCharm Professional (paid)
+# If you have a student license / JetBrains Student Pack, install Pro and sign in to activate
+# Student Pack: https://www.jetbrains.com/academy/student-pack/
+winget install --id JetBrains.PyCharm --exact
+
+# Verify Git
+git --version
 ```
 
-**Disable Windows Store Python:** Go to Settings → Apps → App execution aliases and turn OFF `python.exe` and `python3.exe` to ensure the installed Python is used.
+For **Geany** and **Cursor**, use their installers:
 
-### Installing Geany (optional, lightweight editor)
-
-**Option 1: Direct download**
-- Download from [geany.org/download](https://www.geany.org/download/releases/)
-
-**Option 2: Using Chocolatey**
-```powershell
-choco install geany -y
-```
+- Geany: download from `https://www.geany.org/download/releases/`
+- Cursor: download from `https://cursor.sh/`
 
 ### Setting up a Virtual Environment
 
@@ -101,23 +106,15 @@ pip install -r requirements.txt
 
 ## Installation Guide (Windows VM on macOS via Parallels)
 
-- Virtualization: Parallels Desktop is used to run Windows 11 (ARM).
-- Windows Setup: Ensure Windows 11 is fully updated.
-- Sharing: Enable Parallels Options > Sharing to share a local code directory
-  (e.g., /Users/<username>/code) with the Windows VM (shared at \\Mac\Home\code\).
-- Chocolatey: Open PowerShell (Admin) and install Chocolatey (package manager):
-  ```
-  iex ((New-Object Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-  ```
-- Python: Install Python 3.10.14:
-  ```
-  choco install python --version=3.10.14 -y --params="'/InstallAllUsers /PrependPath'"
-  ```
-- Disable Store Python: Go to Settings > Apps > App execution aliases and turn OFF python.exe.
-- Geany: Install the Geany IDE:
-  ```
-  choco install geany -y
-  ```
+- **Virtualization**: Parallels Desktop is used to run Windows 11 (ARM).
+- **Windows Setup**: Ensure Windows 11 is fully updated.
+- **Sharing**: Enable Parallels Options > Sharing to share a local code directory  
+  (e.g., `/Users/<username>/code`) with the Windows VM (shared at `\\Mac\Home\code\`).
+- **Editors on both sides**:  
+  - On macOS you can open the shared folder in **Geany**, **Cursor**, or **PyCharm**.  
+  - In the Windows VM you can open the **same folder** in **Geany**, **Cursor**, or **PyCharm** (installed via winget or their installers).  
+  - This lets you work on the **same project from both macOS and Windows** without copying files.
+- **winget in the VM**: In the Windows VM, use the same `winget` commands as above for Git/Chrome/PyCharm. Python itself can still be installed from `python.org` as in the section above; the recommended path for this course is the direct Python installer plus `winget` for tools like Git and IDEs.
 
 ## Running Notebooks
 
