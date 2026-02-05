@@ -49,6 +49,8 @@ flowchart LR
 
 ## Setup (local)
 
+> **📘 First-time setup?** See the [main README](../README.md) for IDE recommendations (PyCharm, Cursor), Python installation (direct download or Chocolatey), and virtual environment setup (pyenv or venv).
+
 This class uses Jupyter Notebook. You only need Python and a few libraries.
 
 ### Install

@@ -10,7 +10,7 @@ Context for AI and tooling working in this repo.
 ## Repo layout
 
 - **`class-2-machine-learning-basics/`** — Class 2 materials:
-  - Jupyter notebooks: `data-preprocessing.ipynb`, `data-visualization.ipynb` (and any others listed in the folder README).
+  - Jupyter notebooks: `data-preprocessing.ipynb`, `scaling-data.ipynb`.
   - Each notebook: intro (title, topics, slides link), Colab badge, env-check/imports cell, then concept-labeled code cells.
   - `README.md` in this folder: install, run locally, run in Colab, run in PyCharm, Windows quickstart.
 - **Root** — `README.md` (course overview, schedule, setup), `requirements.txt`, `scratch.py`, `LICENSE`, `.python-version` (pyenv).
