@@ -21,8 +21,8 @@ This class builds directly on **Class 2 – Machine Learning Basics**. In Class 
 
 ## What’s in this folder now
 
-- `class-3-ml-dl-basics.ipynb`
-  - A **complete Linear Regression walkthrough** (house size → house price) that mirrors the *Linear_Regression_demo1* slides:
+- `class-3-linear-regression-basics.ipynb`
+  - A **complete Linear Regression walkthrough** (house size → house price) that mirrors the *Linear_Regression_demo1.pdf* slides:
     - Objective, imports, sample dataset, feature/target split, train/test split  
     - Train `LinearRegression`, inspect slope/intercept, make predictions, evaluate with MSE & R²  
     - Visualize the fitted line over the data and highlight key learnings  
@@ -30,7 +30,22 @@ This class builds directly on **Class 2 – Machine Learning Basics**. In Class 
     - Students create a tiny DataFrame with 3 features and a price column  
     - Follow the same step structure to split, train, evaluate, and predict a new house  
     - Includes a suggested “Actual vs Predicted” scatter plot for the test set  
-- This notebook is intentionally written to be **approachable for new Python users** (small datasets, clear comments) and still interesting for engineers (explicit equation, coefficients, and evaluation metrics).
+  - Start here before trying any of the classifier notebooks.
+- `class-3-logistic-regression-basics.ipynb`
+  - A **Logistic Regression (classification) walkthrough** that mirrors the *Logistic_Regression_demo1.pdf* slides:
+    - Objective: classify Pass / Fail from study hours.  
+    - Uses the same 10‑step pattern as the Linear Regression notebook.  
+    - Includes accuracy, confusion matrix, and a simple prediction for a new student.
+- `multi_reg1.ipynb` — scratch/experimental notebook for multi‑regression variants.
+- Slide PDFs that go with these notebooks:
+  - `Linear_Regression_demo1.pdf`  
+  - `Logistic_Regression_demo1.pdf`  
+  - `Decision_Tree_demo.pdf`  
+  - `Random_Forest_demo.pdf`  
+  - `KNN.pdf`  
+  - `Supervised Learning Algorithms.pdf` (overview + common step structure)
+
+- The notebooks are intentionally written to be **approachable for new Python users** (small datasets, clear comments) and still interesting for engineers (explicit equations, model coefficients, and evaluation metrics).
 
 ## Supervised learning roadmap (from the slides)
 
