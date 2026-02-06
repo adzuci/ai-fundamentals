@@ -1,0 +1,20 @@
+# Random Forest Classifier
+
+- Uses `Age` + `Salary` to predict `Buy`.
+- Uses `RandomForestClassifier(n_estimators=100)`.
+- Includes optional `feature_importances_` interpretation.
+
+## Structure
+
+All notebooks follow the common step structure and include:
+
+- Fill-in-the-blank TODO cells
+- Check-yourself sanity checks
+- Common pitfalls
+- Smoke tests
+
+## Further Reading
+
+- [scikit-learn documentation](https://scikit-learn.org/stable/)
+- [Pandas indexing](https://pandas.pydata.org/docs/user_guide/indexing.html)
+- [Matplotlib plotting](https://matplotlib.org/stable/api/pyplot_summary.html)
