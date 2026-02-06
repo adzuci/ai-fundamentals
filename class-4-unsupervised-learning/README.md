@@ -31,6 +31,7 @@ flowchart LR
 ## Slides
 
 - **[K-Means Demo — PDF](unsupervised_kmeans_demo.pdf)** — Complete K-Means clustering walkthrough with customer segmentation example (Annual Income + Spending Score → clusters).
+- **[Hierarchical Clustering Demo — PDF](hierarchical_clustering_demo.pdf)** — Complete Hierarchical (Agglomerative) Clustering walkthrough with student data example (Hours Studied + Exam Score → clusters).
 
 ---
 
@@ -39,21 +40,23 @@ flowchart LR
 | Notebook | What it covers |
 |----------|----------------|
 | **01_class_4_kmeans_basics.ipynb** | Complete K-Means clustering walkthrough. Customer segmentation example (Income + Spending Score → clusters). Includes step-by-step workflow, visualization, and experimentation with different numbers of clusters. *Start here.* |
+| **02_class_4_hierarchical_clustering_basics.ipynb** | Complete Hierarchical (Agglomerative) Clustering walkthrough. Student data example (Hours Studied + Exam Score → clusters). Includes dendrogram visualization to understand cluster hierarchy. |
+| **03_class_4_unsupervised_learning_overview.ipynb** | Overview of unsupervised learning concepts, types (clustering, dimensionality reduction, anomaly detection), and real-world applications. Includes conceptual examples of K-Means and PCA. |
 
-The notebook follows a clear, beginner-friendly structure:
+All notebooks follow a clear, beginner-friendly structure:
 1. Define the objective
 2. Install/import libraries
 3. Load or create a dataset
 4. Visualize the data
-5. Apply K-Means clustering
-6. Interpret clusters
-7. (Optional) Experiment with different `n_clusters` values
+5. Apply the clustering/algorithm
+6. Interpret results
+7. (Optional) Experiment with different parameters
 
-The notebook includes an **Open in Colab** button in the intro for no-install runs in the browser.
+Each notebook includes an **Open in Colab** button in the intro for no-install runs in the browser.
+
 ## Future Updates
 
 This folder will expand to include additional unsupervised learning algorithms:
-- Hierarchical clustering
 - DBSCAN clustering
-- Dimensionality reduction (PCA, t-SNE)
+- Dimensionality reduction (PCA, t-SNE) — full walkthrough notebooks
 - All following the same clear, step-by-step pattern
