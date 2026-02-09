@@ -43,7 +43,7 @@ Choose one of these (you can switch later):
 ### Installing Python
 
 **Option 1: Direct download (recommended for beginners)**
-- Download Python 3.10.14 from [python.org/downloads](https://www.python.org/downloads/)
+- Download Python [3.10.11](https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe) or 3.10.14 from [python.org/downloads](https://www.python.org/downloads/)
 - Run the installer and check "Add Python to PATH" during installation
 
 ### Windows dev setup (PowerShell, using winget)
