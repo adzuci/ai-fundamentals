@@ -136,6 +136,10 @@ See the class-specific READMEs (e.g., `class-2-machine-learning-basics/README.md
 - [Course Syllabus](https://drive.google.com/file/d/13ZoVr0B51PqaOcS31l4vcKWXuaTPDbWu/view?usp=sharing)
 - Course Folder: <removed>
 
+## Cert Prep
+
+- [AI-900 Azure AI Fundamentals Prep Plan](AI-900_PREP_PLAN.md)
+
 ## Class 2
 
 - Jupyter setup and notebook: `class-2-machine-learning-basics/`
