@@ -48,6 +48,7 @@ flowchart LR
 | Notebook | What it covers |
 |----------|----------------|
 | **01_class_5_house_price_prediction.ipynb** | Complete neural network walkthrough for house price prediction. Builds a simple feedforward network (input → hidden layer → output) to predict house prices from size. Includes step-by-step workflow: dataset creation, model architecture, compilation, training, and predictions. *Start here.* |
+| **02_class_5_student_grade_prediction.ipynb** | Binary classification: predict whether a student will pass or fail from **study hours** and **attendance**. Uses sigmoid output and binary cross-entropy; same Keras workflow as the house price notebook but for classification. Based on Deep_Learning_Demo2. |
 
 All notebooks follow a clear, beginner-friendly structure:
 1. Define the objective
