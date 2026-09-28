@@ -1,8 +1,5 @@
 # Lesson 6: Temperature
 
-This folder is lesson 6 (temperature) of Building with the Claude API.
-`chat()` accepts messages, an optional system prompt, and temperature (default 1.0).
-The Anthropic client and model are imported from the course module `claude_chat.py`.
-This SDK does not accept `temperature` as a direct `messages.create` argument, so `chat()` sends it through `extra_body`.
+Temperature changes how predictable the next reply is. Lower values stick closer to the most likely wording.
 
-Executing this file only defines `chat`; it does not call the API. From the repo root, start `.venv-claude/bin/python`, import `chat` from `building-with-the-claude-api/06-temperature/chat.py`, build a messages list, and print `chat(messages)` or `chat(messages, temperature=0)`.
+Read `chat.py` in this folder. `chat` takes `temperature` (default `1.0`) and sends it with `extra_body`, because SDK 1.8.0 does not accept `temperature` as a direct argument. Running the file only defines `chat`; it does not call the API.
