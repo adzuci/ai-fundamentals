@@ -2,7 +2,7 @@
 
 Purpose: This is a one-stop, end-to-end study plan to help you prepare for and pass Microsoft Azure AI Fundamentals (AI-900). It combines official links, study sequencing, domain notes, practice strategy, glossary, and exam-style questions in one place.
 
-**Location and usage note:** This file lives at the repo root (`AI-900_PREP_PLAN.md`). Use it as your daily checklist: study the domain sections, run the knowledge checks, complete sample questions, then validate with Microsoft practice assessments.
+**Location and usage note:** This file lives in `ai-fundamentals-class/AI-900_PREP_PLAN.md`. Use it as your daily checklist: study the domain sections, run the knowledge checks, complete sample questions, then validate with Microsoft practice assessments.
 
 ## Table of Contents
 - [Quick links](#quick-links)

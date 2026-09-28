@@ -63,8 +63,8 @@ From the repo root:
 
 ```bash
 pip install -r requirements.txt
-cd class-6-natural-language-processing
+cd ai-fundamentals-class/class-6-natural-language-processing
 jupyter notebook  # or jupyter lab
 ```
 
-See the [main README](../README.md) for full setup and course schedule.
+See the [main README](../../README.md) for full setup and course schedule.

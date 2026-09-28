@@ -38,8 +38,8 @@ From the repo root:
 
 ```bash
 pip install -r requirements.txt
-cd class-8-bias-and-ethics
+cd ai-fundamentals-class/class-8-bias-and-ethics
 jupyter notebook  # or jupyter lab
 ```
 
-See the [main README](../README.md) for full setup and course schedule.
+See the [main README](../../README.md) for full setup and course schedule.

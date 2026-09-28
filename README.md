@@ -1,6 +1,11 @@
 # AI Fundamentals Code Repository
 
-This repository contains the code, notes, and projects for the Unique System Skills AI Fundamentals course.
+This repository contains course code for two courses:
+
+- **AI Fundamentals** (Unique System Skills) — notebooks and notes in [`ai-fundamentals-class/`](ai-fundamentals-class/)
+- **Building with the Claude API** — helpers in [`building-with-the-claude-api/`](building-with-the-claude-api/) ([course](https://academy.claude.com/courses/building-with-the-claude-api))
+
+The sections below are the AI Fundamentals course overview and setup. `requirements.txt` stays at the repo root.
 
 ## Overview
 
@@ -118,12 +123,12 @@ pip install -r requirements.txt
 
 ## Running Notebooks
 
-Notebooks in this repo (e.g., in `class-2-machine-learning-basics/`) can be run in two ways:
+Notebooks in this repo (e.g., in `ai-fundamentals-class/class-2-machine-learning-basics/`) can be run in two ways:
 
 1. **Locally** — Install Jupyter (`pip install jupyter`) and run `jupyter notebook` or `jupyter lab`
 2. **Google Colab** — Each notebook includes an "Open in Colab" button; click it to run in your browser with no local setup
 
-See the class-specific READMEs (e.g., `class-2-machine-learning-basics/README.md`) for detailed setup instructions.
+See the class-specific READMEs (e.g., `ai-fundamentals-class/class-2-machine-learning-basics/README.md`) for detailed setup instructions.
 
 ## Workflow Notes
 
@@ -138,8 +143,12 @@ See the class-specific READMEs (e.g., `class-2-machine-learning-basics/README.md
 
 ## Cert Prep
 
-- [AI-900 Azure AI Fundamentals Prep Plan](AI-900_PREP_PLAN.md)
+- [AI-900 Azure AI Fundamentals Prep Plan](ai-fundamentals-class/AI-900_PREP_PLAN.md)
 
-## Class 2
+## Class materials
 
-- Jupyter setup and notebook: `class-2-machine-learning-basics/`
+Class folders live under `ai-fundamentals-class/` (`class-2-machine-learning-basics/` through `class-8-bias-and-ethics/`).
+
+## Building with the Claude API
+
+See [`building-with-the-claude-api/README.md`](building-with-the-claude-api/README.md). Activate `.venv-claude` at the repo root (`source .venv-claude/bin/activate`). The helper loads `ANTHROPIC_API_KEY` from the repo-root `.env`.

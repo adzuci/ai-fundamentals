@@ -11,7 +11,7 @@ Label: approved
 HOW TO RUN:
   From the repo root:
     pip install -r requirements.txt
-    python class-8-bias-and-ethics/loan_bias_exercise.py
+    python ai-fundamentals-class/class-8-bias-and-ethics/loan_bias_exercise.py
 
   Or from this directory:
     pip install numpy pandas scikit-learn

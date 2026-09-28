@@ -70,8 +70,8 @@ From the repo root:
 
 ```bash
 pip install -r requirements.txt
-cd class-5-deep-learning
+cd ai-fundamentals-class/class-5-deep-learning
 jupyter notebook  # or jupyter lab
 ```
 
-See the [main README](../README.md) for full setup and course schedule.
+See the [main README](../../README.md) for full setup and course schedule.

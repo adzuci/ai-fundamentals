@@ -4,10 +4,10 @@ name: Notebooks
 on:
   push:
     branches: [main]
-    paths: ['class-2-machine-learning-basics/**', '.github/workflows/notebooks.yml', 'requirements.txt']
+    paths: ['ai-fundamentals-class/class-2-machine-learning-basics/**', '.github/workflows/notebooks.yml', 'requirements.txt']
   pull_request:
     branches: [main]
-    paths: ['class-2-machine-learning-basics/**', '.github/workflows/notebooks.yml', 'requirements.txt']
+    paths: ['ai-fundamentals-class/class-2-machine-learning-basics/**', '.github/workflows/notebooks.yml', 'requirements.txt']
 
 jobs:
   run-notebooks:
@@ -31,12 +31,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install jupyter nbconvert
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          if [ -f class-2-machine-learning-basics/requirements.txt ]; then pip install -r class-2-machine-learning-basics/requirements.txt; fi
+          if [ -f ai-fundamentals-class/class-2-machine-learning-basics/requirements.txt ]; then pip install -r ai-fundamentals-class/class-2-machine-learning-basics/requirements.txt; fi
 
       - name: Execute notebooks
         id: run
         run: |
-          cd class-2-machine-learning-basics || exit 1
+          cd ai-fundamentals-class/class-2-machine-learning-basics || exit 1
           err=0
           for f in *.ipynb; do
             echo "Running $f ..."

@@ -43,7 +43,7 @@ flowchart LR
 
 ## Slides
 
-- **[Machine Learning (Class 2) — PDF on GitHub](https://github.com/adzuci/ai-fundamentals/blob/main/class-2-machine-learning-basics/Machine%20Learning.pdf)** — Deck as PDF (view or download).
+- **[Machine Learning (Class 2) — PDF on GitHub](https://github.com/adzuci/ai-fundamentals/blob/main/ai-fundamentals-class/class-2-machine-learning-basics/Machine%20Learning.pdf)** — Deck as PDF (view or download).
 
 ---
 

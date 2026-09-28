@@ -60,10 +60,10 @@ From the repo root:
 
 ```bash
 pip install -r requirements.txt
-cd class-7-computer-vision
+cd ai-fundamentals-class/class-7-computer-vision
 jupyter notebook  # or jupyter lab
 ```
 
 For full computer vision demos (CNNs, transfer learning), you may need `tensorflow` or `torch` and `Pillow`—see notebook cells for install commands.
 
-See the [main README](../README.md) for full setup and course schedule.
+See the [main README](../../README.md) for full setup and course schedule.
